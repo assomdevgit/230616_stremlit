@@ -135,3 +135,29 @@ st.write(f"""
     print("파이썬")
     ```
 """)
+
+
+st.title("컴포넌트")
+
+st.write("❤️")
+cols = st.columns(2) # 컬럼 리스트
+cols[0].write("❤️")
+cols[1].write("❤️")
+
+cols = st.columns(3)
+# 🐦 -> n등분 -> 3등분
+cols[0].write("🐦")
+cols[1].write("🐦")
+cols[-1].write("🐦")
+cols = cols[0].columns(3) # 열의 열인 거임
+cols[0].write("🐦")
+cols[1].write("🐦")
+cols[-1].write("🐦")
+
+col1, col2 = st.columns(2)
+col1.write("왼쪽 열")
+col2.write("오른쪽 열")
+with col1:
+    st.write("왼쪽")
+with col2:
+    st.write("오른쪽")
