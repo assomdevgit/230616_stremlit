@@ -1,7 +1,7 @@
 # pip install streamlit
 # steamlit hello
 
-import streamlit as st # streamlit
+import streamlit as st  # streamlit
 
 # st. -> ctrl + space
 
@@ -83,7 +83,7 @@ st.write("""
     3. 리스트
         1. 들여쓰기
             1. 들여쓰기
-            
+
     1. 순서가
     1. 1로 넣어도
     1. 증가됨
@@ -92,7 +92,7 @@ st.write("""
     (---)
     ___
     (___)
-    
+
     ### 테이블 (표(
     |이름|직업|
     |-|-|
@@ -118,13 +118,13 @@ st.divider()
 st.subheader("인용")
 st.write(f"""
     > 무언가 멋진 말 - 유명한 사람
-    
+
     > 진입장벽은 수익이다 - 어느 코딩 갓아
-    
+
     책이나, 사람말 인용할 때...
     > 인용 첫줄
     > > 인용문 안에 인용임
-    
+
     ### 코드
     ` 코드를 나타낼 때 주로 쓰이는 묶음 표시 (한줄)`
     ```
